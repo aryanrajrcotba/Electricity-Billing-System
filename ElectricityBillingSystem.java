@@ -7,7 +7,7 @@ import java.util.ArrayList;
 public class ElectricityBillingSystem extends JFrame {
     private static final String DB_URL = "jdbc:mysql://localhost:3306/ElectricityBillingSystem";
     private static final String DB_USER = "root";
-    private static final String DB_PASS = "Patna@1234";
+    private static final String DB_PASS = "root";
 
     private JTextField nameField, addressField, meterField, unitsField, meterSearchField;
     private JLabel billAmountLabel;
